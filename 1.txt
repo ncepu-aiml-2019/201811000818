@@ -1,0 +1,13 @@
+i=0
+n=0
+j=0
+for i in range(2,101):
+    j=1
+    while(j<=i):
+        if i%j==0:
+            n=n+1
+        j=j+1
+    if n==2:
+        print('\n')
+        print(i)
+    n=0
